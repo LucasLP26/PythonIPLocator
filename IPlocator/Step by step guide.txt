@@ -1,0 +1,33 @@
+In the code above, you need to obtain the GeoLite2-City database file 
+from the MaxMind website (https://www.maxmind.com) and provide the correct path to the database_file variable.
+
+Step 1: Visit the MaxMind website
+Go to the MaxMind website by opening your web browser and navigating to https://www.maxmind.com.
+
+Step 2: Create an account
+If you don't already have an account, click on the "Sign In" button at the top right corner of the page, then select "Create Account" to create a new account. Fill in the required information and follow the prompts to create your account.
+
+Step 3: Log in to your account
+Once you have created an account, click on the "Sign In" button again and enter your login credentials to log in to your account.
+
+Step 4: Download the GeoLite2-City database
+After logging in, go to the "Downloads" section. You can find it in the top menu or by clicking on your account name and selecting "Downloads" from the dropdown menu.
+
+Step 5: Select the GeoLite2-City database
+In the "Downloads" section, locate the "GeoLite2" product and click on it. Then, select the "GeoLite2-City" database option.
+
+Step 6: Choose the database format
+On the GeoLite2-City database page, you'll see different formats available for download. Choose the format that suits your needs. The most common format is the MaxMind DB format.
+
+Step 7: Accept the terms of use
+Before downloading the database, you'll need to accept the terms of use. Read the terms, and if you agree, check the box to accept them.
+
+Step 8: Download the database file
+Once you have accepted the terms of use, click on the download button to download the GeoLite2-City database file. Save the file to a location on your computer.
+
+Step 9: Provide the correct path to the database file
+After downloading the GeoLite2-City database file, you need to provide the correct path to the `database_file` variable in your code. Replace `"GeoLite2-City.mmdb"` in the code with the path to the downloaded database file on your computer.
+
+For example, if you saved the database file in the same directory as your Python script, you can set `database_file = "GeoLite2-City.mmdb"`. If you saved it in a different directory, provide the full path, such as `database_file = "C:/path/to/GeoLite2-City.mmdb"`.
+
+That's it! You have obtained the GeoLite2-City database file from the MaxMind website and provided the correct path to the `database_file` variable in your code. Now you can use the IP locator code with the offline database.
